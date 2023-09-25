@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Welcome')
 @section('content')
     <section class="contact-section">
         <div class="outer-box">
@@ -932,7 +933,6 @@
                 <h2>
                     <span style="font-size: 29px;">
                         Our Photo
-                        <br>
                     </span>
                     <span class="color3">
                         Gallery
