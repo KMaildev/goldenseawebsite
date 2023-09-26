@@ -6,7 +6,14 @@ use Illuminate\Http\Request;
 
 class AboutController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('about.index');
+    }
+
+
+    public function chart()
+    {
+        return view('about.chart');
     }
 }

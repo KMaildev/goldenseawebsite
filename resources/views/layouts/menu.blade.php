@@ -104,8 +104,16 @@
                                 <li>
                                     <a href="{{ route('md.index') }}">MD INSIGHTS</a>
                                 </li>
+
                                 <li>
-                                    <a href="{{ route('team.index') }}">Our TEAM MEMBERS</a>
+                                    <a href="{{ route('chart') }}">
+                                        Organizational chart
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="{{ route('team.index') }}">OUR TEAM MEMBERS</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('cv.index') }}">SUBMIT RESUME</a>

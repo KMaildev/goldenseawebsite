@@ -29,3 +29,6 @@ Route::resource('contact', ContactController::class);
 Route::resource('gallery', ActivitiesController::class);
 Route::resource('job', JobController::class);
 Route::resource('cv', CvController::class);
+
+Route::get('chart', [AboutController::class, 'chart'])->name('chart');
+
